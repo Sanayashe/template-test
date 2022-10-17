@@ -1,0 +1,8 @@
+html {
+  box-sizing: border-box; /*prevents scrolling when adding padding ie limiting the size of our window */
+}
+
+body {
+  margin: 0;
+  min-height: 100vh; /* view height=> full height of the entire window you are in. We want it to stretch our background to full height even if the content is not enough */
+}
